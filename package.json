@@ -1,0 +1,28 @@
+{
+  "name": "sodium-instance",
+  "version": "1.4.0",
+  "description": "Sodium Instance",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "z1g Project",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^2.0.0",
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "ultraviolet-static": "file:sodium-static"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3"
+  }
+}

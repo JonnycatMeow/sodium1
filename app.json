@@ -1,0 +1,7 @@
+{
+  "name": "Sodium",
+  "description": "cool website",
+  "repository": "https://github.com/z1g-project/sodium.git",
+  "logo": "./sodium-static/public/sodium.png",
+  "keywords": []
+}

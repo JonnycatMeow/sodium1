@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <title>Sodium - Error</title>
+    <meta name="description" content="Sodium is a site used for evading internet censorship." />
+    <meta property="og:image" content="/sodium.png">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#434c5e"/>
+    <meta name="googlebot" content="noindex, nofollow, nosnippet" />
+    <base href="/" />
+    <link rel="shortcut icon" content="favicon.ico" />
+    <link rel="stylesheet" href="ui.css" id="custom-css"/>
+    <link rel="stylesheet" href="montserrat.css"/>
+    <script src="settings.js" defer></script>
+    <script src="fade.js" defer></script>
+    <link rel="manifest" href="manifest.webmanifest"/>
+    <link id="favicon" rel="icon" type="image/png" href="favicon.ico">
+  </head>
+
+  <body>
+    <div class="second-bar">
+      <a href="/" class="second-bar-link home-link"></a>
+      <a href="/games/" class="second-bar-link games-link"></a>
+      <a href="/apps/" class="second-bar-link apps-link"></a>
+      <a href="/settings/" class="second-bar-link settings-link"></a>
+      <div class="info-menu" id="info-menu" style="margin-left: auto">
+        <div class="info-menu-item" id="transferRate"></div>
+        <div class="info-menu-item" id="latency"></div>
+        <div class="info-menu-item" id="fps"></div>
+      </div>
+      <div class="top-bar-item" id="time"></div>
+      <div class="top-bar-item">
+        <div class="battery-icon-container">
+          <div id="battery" class="battery-icon"></div>
+          <div class="battery-fill"></div>
+          <p class="battery-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo-wrapper left-margin">
+      <h1>Sodium | Error</h1>
+    </div>
+    <div class="desc left-margin">
+      <p>The server could not route your request.</p>
+      <p id="uv-error"></p>
+      <code id="uv-error-code"></code>
+      <button id="uv-register-sw" value="Register service worker">
+        Register ServiceWorker
+      </button>
+    </div>
+
+    <footer>
+      <img src="assets/img/z1g.png" alt="z1g Project" title="The z1g Project GitHub organization" height="30" width="30" onclick="location.href='/github/z1g-project/'" />
+      <img src="assets/img/discord.jpg" alt="Discord" title="The z1g Project Discord" height="30" width="30" onclick="location.href='/discord/'" />
+      <img src="assets/img/github.png" alt="GitHub" title="The official deployment repository for Sodium" height="30" width="30" onclick="location.href='/github/'" />
+      <img src="assets/img/credits.png" alt="Credits" title="License information" height="30" width="30" onclick="location.href='credits.html'" />   
+      <div class="footer-text-container" style="margin-left: auto">
+        <span>Sodium &copy; z1g Project 2023</span>
+      </div> 
+  </footer>
+
+    <script id="proxcfg" src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script id="proxsw" src="register-sw.js"></script>
+    <script src="proxhandler.js" defer></script>
+    <script id="proxworker" defer></script>
+    <script src="dynamic.sw.js" defer></script>
+    <script src="dynamicsw.js" defer></script>
+    <script src="error.js"></script>
+    <script src="time.js"></script>
+  </body>
+</html>

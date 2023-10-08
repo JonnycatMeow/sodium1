@@ -1,0 +1,34 @@
+Sodium Credits
+
+Thank you for supporting the z1g Project!
+
+Here at the z1g Project we like focusing on helping the community bypass their schools restrictions and have freedom on their end!
+
+Thank you for supporting us since 2021!
+
+Sodium Visual Credits
+
+- UI & Visials: XSTARS
+- Logos and General Design: XSTARS
+- README improvements: 3kh0
+- Frontend Improvements: badpinghere & rare1k
+
+Ultraviolet Credits
+
+- Created by Titanium network
+
+Dynamic Credits
+
+- Created by Nebula Services
+
+Honorable Mentions
+
+- BadPingHere: Fixing the Z-Index Bug for the click hitboxes
+- Icccy: Helping me with Logo & Some CSS Stuff
+- carter: Helping me setup UV on a static sites
+- Bluu: Motivation
+
+Wishing the best of luck for you guys!
+
+Last Updated: 10/02/2023
+Made with ❤️ by XSTARS
